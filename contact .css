@@ -1,0 +1,237 @@
+*{
+    margin: auto;
+}
+.top{
+    background-color: black;
+    color: white;
+}
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 85%;
+     max-width: 30px; 
+    font-size: 50px;
+    background-color: transparent;
+    color: #38a1f3;
+    border: none;
+    padding: 10px 13px;
+
+}
+.navbar{
+    margin-top: 0px;
+}
+
+.nav-link i{
+    font-size: 30px;
+    color: #fea1f2;
+}
+.class1{
+    background-color: rgb(28, 24, 22);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fea1f2;
+    font-size: 20px;
+}
+.section6{
+    height:400px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("kidimage.jpg");
+    
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+.overlay h1 {
+    letter-spacing: 0px;
+    margin: 10 0 5px;
+  }
+  
+.overlay p {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: initial;
+}
+.border{
+    border: 3px solid grey; 
+    margin: 10px;
+    text-align: center;
+    box-shadow: 3px 3px grey, -1em 0 .4em grey;
+    padding: 10px;
+}
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.location div i{
+    color: #fea1f2;
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+h5{
+    text-align: center;
+    padding: 20px;
+}
+form{
+    text-align: center;
+}
+.but{
+    background-color: #fea1f2;
+    border-radius:20px;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 10px;
+    color: white;
+    
+ }
+  .but:hover{
+   cursor: pointer;
+   background-color: grey;
+   text-decoration: none;
+  }
+ 
+
+  footer{
+    margin-top: 100px;
+}
+
+footer p{
+    color: #999;
+    line-height: 25px;
+}
+footer h2,h3{
+    color: #fff;
+}
+footer h2{
+    font-size: 18px;
+}
+.footer-top{
+    background-color:black;
+    padding: 80px 0;
+}
+.segment-two,.segment-three,.segment-four{
+    margin-top: 25px;
+}
+.segment-one h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.segment-two h2{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.segment-two h2:before{
+    content: '|';
+    color: #fea1f2;
+    padding-right: 10px;
+}
+.segment-two ul,.segment-one ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li,.segment-one ul li{
+    border-bottom: 1px solid rbg(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a,.segment-one ul li a{
+    color: #999;
+    text-decoration: none;
+    
+}
+.segment-two ul li a:hover,.segment-one ul li a:hover{
+    color: #fea1f2;
+}
+.segment-three h2{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.segment-three h2:before{
+    content: '|';
+    color: #fea1f2;
+    padding-right: 10px;
+}
+.segment-three a{
+    background-color: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: white;
+    padding: 10px 12px;
+}
+.segment-four h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.segment-four h2:before{
+    content: '|';
+    color: #fea1f2;
+    padding-right: 10px;
+}
+.segment-four form input[type=submit]{
+    background-color: #fea1f2;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer-botton-text{
+    text-align: center;
+    color: black;
+    line-height: 40px;
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+  .md-mb-30{
+      margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width:767px){
+    .sm-mb-30{
+        margin-bottom: 30px;
+
+    }
+    .footer-top{
+        padding: 50px 0;
+    }
+}  
